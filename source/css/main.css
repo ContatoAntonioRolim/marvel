@@ -1,0 +1,118 @@
+/* Genericos */
+.row {
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+    flex-direction: row;
+}
+
+.jc-center {
+	justify-content: center;
+}
+
+.jc-start {
+    justify-content: start;
+}
+
+.splitter {
+    width: 30%;
+    height: 2px;
+    background-color: #202020;
+    border: 0;
+}
+
+.default-border {
+    border: solid 5px #202020;
+
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.item {
+	flex: 1;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	margin: 0 auto;
+	display: flex;
+}
+
+.max-height-600 {
+    max-height: 600px;
+}
+
+.max-height-40 {
+    max-height: 40px;
+}
+
+/* Especificos */
+/* Body */
+body {
+    margin: 0;
+    font-family: Marvel;
+}
+
+
+/* Header */
+header {
+    background-color: #202020;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 52px;
+    padding: 0px 20px;
+    box-sizing: border-box; 
+}
+
+header .mvl-animated-logo{
+    margin: 0 auto;
+    height: 52px;
+}
+
+
+/* Main */
+.img-box {
+    display: inline-block;
+    margin: 30px 20px;
+    width: 300px;
+    height: 300px;
+}
+
+.img-box:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.stories {
+    width: 30%;
+    margin: 0 auto 60px;
+    /* margin-bottom: 60px; */
+    padding: 20px;
+    background-color: #99999994;
+}
+
+.stories-row {
+    width: auto;
+    text-align: left;
+    margin: 0 auto
+}
+
+/* Footer */
+footer {
+    background-color: #202020;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    height: 52px;
+    padding: 0px 20px;
+    position: fixed;
+    bottom: 0;
+}
